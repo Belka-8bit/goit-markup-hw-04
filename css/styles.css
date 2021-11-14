@@ -149,7 +149,11 @@ p {
 
 .hero {
   background-color: var(--primary-section-color);
-  background-image: linear-gradient(to right, var(--gradient-color)),
+  background-image: linear-gradient(
+      to right,
+      var(--gradient-color),
+      var(--gradient-color)
+    ),
     url(/images/hero-img.jpg);
   background-repeat: no-repeat;
   background-position: center;
