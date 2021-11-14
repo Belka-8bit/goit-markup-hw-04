@@ -267,25 +267,25 @@ p {
 }
 
 .antenna::before {
-  background-image: url(/images/antenna.svg);
+  background-image: url(/images/antenna-icon.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .clock::before {
-  background-image: url(/images/clock.svg);
+  background-image: url(/images/clock-icon.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .diagram::before {
-  background-image: url(/images/diagram.svg);
+  background-image: url(/images/diagram-icon.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .astronaut::before {
-  background-image: url(/images/astronaut.svg);
+  background-image: url(/images/astronaut-icon.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
