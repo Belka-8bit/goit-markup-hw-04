@@ -7,6 +7,7 @@
   --primary-section-color: #2f303a;
   --secondary-section-color: #f5f4fa;
   --footer-address-color: rgba(255, 255, 255, 0.6);
+  --gradient-color: rgba(47, 48, 58, 0.4);
 }
 
 body {
@@ -148,8 +149,14 @@ p {
 
 .hero {
   background-color: var(--primary-section-color);
-  background: url(/images/hero-img.jpg) center no-repeat;
-  max-width: 100%;
+  background-image: linear-gradient(to right, var(--gradient-color)),
+    url(/images/hero-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  max-width: 1600px;
+  margin: 0 auto;
   padding: 200px 0;
   text-align: center;
 }
