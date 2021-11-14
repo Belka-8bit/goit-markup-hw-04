@@ -147,6 +147,12 @@ p {
 /* Hero */
 
 .hero {
+  background-image: url(/images/hero-img.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
+  width: 100%;
+  max-width: 1600px;
   background-color: var(--primary-section-color);
   padding: 200px 0;
   text-align: center;
