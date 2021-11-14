@@ -147,8 +147,9 @@ p {
 /* Hero */
 
 .hero {
-  background: url(/images/hero-img.jpg) center no-repeat;
   background-color: var(--primary-section-color);
+  background: url(/images/hero-img.jpg) center no-repeat;
+  width: 100%;
   padding: 200px 0;
   text-align: center;
 }
