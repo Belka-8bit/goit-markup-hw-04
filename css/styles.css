@@ -91,7 +91,7 @@ p {
 }
 
 .nav__list {
-  display: flex;
+  display: inline-flex;
 }
 
 .nav__item:not(:last-child),
@@ -111,13 +111,15 @@ p {
 }
 
 .address__list {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   margin-left: auto;
 }
 
 .header__address {
   color: var(--secondary-text-color);
+  display: inline-flex;
+  align-items: center;
   padding: 32px 0;
   font-size: 14px;
   font-weight: 500;
@@ -127,8 +129,30 @@ p {
   text-decoration: none;
 }
 
-.nav__address {
-  display: inline-block;
+.header__address::before {
+  content: "";
+  margin-right: 10px;
+  background-size: contain;
+}
+
+.mail::before {
+  background-image: url(/images/mail-icon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 12px;
+}
+
+.phone::before {
+  background-image: url(/images/phone-icon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 10px;
+  height: 16px;
+}
+
+.mail:hover,
+.phone:hover {
 }
 
 .nav__link:hover,
