@@ -129,7 +129,8 @@ p {
   border-radius: 2px;
 }
 
-.nav__link:hover::after {
+.nav__link:hover::after,
+.nav__link:focus::after {
   content: "";
   display: block;
   width: 100%;
