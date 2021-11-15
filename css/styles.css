@@ -345,7 +345,7 @@ p {
   display: block;
 }
 
-.specialist__title {
+.section__title {
   color: var(--primary-text-color);
   margin-bottom: 50px;
   font-size: 36px;
