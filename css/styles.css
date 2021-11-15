@@ -406,6 +406,12 @@ p {
   align-items: center;
 }
 
+.specialist__icon:hover,
+.specialist__icon:focus {
+  background-color: var(--accent-color);
+  fill: var(--tittle-text-color);
+}
+
 /* Filter */
 
 .filter__list {
