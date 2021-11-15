@@ -163,6 +163,10 @@ p {
   text-decoration: none;
 }
 
+.header__icon {
+  fill: currentColor;
+}
+
 .nav__link:hover,
 .header__address:hover {
   color: var(--accent-color);
