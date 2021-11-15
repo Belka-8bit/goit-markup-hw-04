@@ -368,7 +368,7 @@ p {
 }
 
 .specialist__text p {
-  margin-bottom: 30px;
+  padding-bottom: 16px;
 }
 
 .specialist__name {
@@ -388,14 +388,22 @@ p {
 
 .specialist__item {
   display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.specialist__icon:not(:last-child) {
+  margin-right: 10px;
 }
 
 .specialist__icon {
+  display: flex;
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  color: var(--icon-color);
-  background-color: red;
+  fill: var(--icon-color);
+  justify-content: center;
+  align-items: center;
 }
 
 /* Filter */
