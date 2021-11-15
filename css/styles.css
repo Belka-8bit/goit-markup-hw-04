@@ -435,15 +435,26 @@ p {
 
 .clients__card {
   display: inline-flex;
-  width: 170px;
-  height: 92px;
-  background-color: var(--primary-background-color);
+  color: var(--icon-color);
+  width: 172px;
+  height: 94px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
 
 .clients__card:not(:last-child) {
   margin-right: 30px;
+}
+
+.clients__icon {
+  width: 100%;
+  fill: currentColor;
+}
+
+.clients__icon:hover {
+  fill: var(--accent-color);
+  border: 1px solid #2196f3;
+  border-radius: 4px;
 }
 
 /* Filter */
