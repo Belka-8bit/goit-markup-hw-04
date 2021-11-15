@@ -192,7 +192,7 @@ p {
       var(--gradient-color),
       var(--gradient-color)
     ),
-    url(/images/hero-img.jpg);
+    url(../images/hero-img.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -305,25 +305,25 @@ p {
 }
 
 .antenna::before {
-  background-image: url(/images/antenna-icon.svg);
+  background-image: url(../images/antenna-icon.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .clock::before {
-  background-image: url(/images/clock-icon.svg);
+  background-image: url(../images/clock-icon.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .diagram::before {
-  background-image: url(/images/diagram-icon.svg);
+  background-image: url(../images/diagram-icon.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .astronaut::before {
-  background-image: url(/images/astronaut-icon.svg);
+  background-image: url(../images/astronaut-icon.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
