@@ -430,14 +430,20 @@ p {
 .clients__list {
   background-color: var(--primary-background-color);
   display: inline-flex;
+  margin: 0 auto;
 }
 
 .clients__card {
+  display: inline-flex;
   width: 170px;
   height: 92px;
   background-color: var(--primary-background-color);
   border: 1px solid #afb1b8;
   border-radius: 4px;
+}
+
+.clients__card:not(:last-child) {
+  margin-right: 30px;
 }
 
 /* Filter */
