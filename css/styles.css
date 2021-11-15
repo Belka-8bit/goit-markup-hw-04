@@ -153,7 +153,6 @@ p {
 .nav__address {
   display: inline-flex;
   align-items: center;
-  padding: 32px 0;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
@@ -164,24 +163,26 @@ p {
 
 .header__address {
   color: var(--secondary-text-color);
+  padding: 32px 0;
   display: flex;
   align-items: center;
   text-decoration: none;
 }
 
 .header__icon {
-  fill: var(--secondary-text-color);
+  fill: currentColor;
+  margin-right: 10px;
 }
 
 .nav__link:hover,
 .header__address:hover,
 .header__icon:hover {
   color: var(--accent-color);
-  fill: var(--accent-color);
 }
 
 .nav__link:focus,
-.header__address:focus {
+.header__address:focus,
+.header__icon:focus {
   color: var(--accent-color);
 }
 
