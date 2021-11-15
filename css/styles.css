@@ -284,37 +284,15 @@ p {
   margin-right: 30px;
 }
 
-.specials__info::before {
-  content: "";
-  display: block;
-  height: 120px;
+.specials__icon {
   background-color: var(--secondary-section-color);
+  display: inline-flex;
+  width: 100%;
+  height: 120px;
   margin-bottom: 30px;
-  border-radius: 4px;
 }
 
-.antenna::before {
-  background-image: url(../images/antenna-icon.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.clock::before {
-  background-image: url(../images/clock-icon.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.diagram::before {
-  background-image: url(../images/diagram-icon.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.astronaut::before {
-  background-image: url(../images/astronaut-icon.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+.specials__item {
 }
 
 .specials__info:nth-child(4) {
