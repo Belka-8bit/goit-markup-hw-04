@@ -589,7 +589,6 @@ p {
 
 .footer__item {
   display: flex;
-  justify-content: flex-start;
 }
 
 .footer__title {
@@ -601,30 +600,23 @@ p {
 }
 
 .footer__list {
-  display: block;
-  background-color: red;
-  color: black;
-  width: 44px;
-  height: 44px;
+  display: inline-flex;
+  justify-content: center;
 }
 
 .footer__social {
-  display: block;
-
-  border-radius: 50%;
-  border: none;
-  cursor: pointer;
-  background-position: center;
-  transition: 0.2s;
-}
-
-.footer__link {
-  fill: black;
-  display: flex;
+  border: 3px solid red;
   width: 44px;
   height: 44px;
 }
 
-.footer__icon {
-  fill: black;
+.footer__social:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer__link {
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s;
 }
