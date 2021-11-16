@@ -447,14 +447,10 @@ p {
 }
 
 .clients__icon {
-  width: 100%;
   fill: currentColor;
 }
 
 .clients__icon:hover {
-  fill: var(--accent-color);
-  border: 1px solid #2196f3;
-  border-radius: 4px;
 }
 
 /* Filter */
