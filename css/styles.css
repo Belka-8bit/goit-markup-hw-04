@@ -540,7 +540,7 @@ p {
 .footer__inner {
   color: var(--tittle-text-color);
   font-family: "Raleway", sans-serif;
-  display: block;
+  display: inline-block;
   margin-bottom: 20px;
   font-size: 26px;
   font-weight: 700;
@@ -551,6 +551,7 @@ p {
 .footer__logo {
   color: var(--accent-color);
   font-family: "Raleway", sans-serif;
+  margin-bottom: 20px;
   font-size: 26px;
   font-weight: 700;
   line-height: 1.2;
@@ -558,6 +559,7 @@ p {
 
 .footer__text {
   color: var(--tittle-text-color);
+  display: inline-block;
   margin-bottom: 9px;
   font-size: 14px;
   line-height: 1.71;
@@ -566,6 +568,7 @@ p {
 
 .footer__info {
   margin-bottom: 9px;
+  display: inline-block;
 }
 
 .footer__address {
@@ -580,4 +583,19 @@ p {
 .footer__address:hover,
 .footer__address:focus {
   color: var(--accent-color);
+}
+
+.footer__item {
+}
+
+.footer__title {
+}
+
+.footer__social {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: red;
+  color: var(--tittle-text-color);
+  transition: 0.2s;
 }
