@@ -586,6 +586,7 @@ p {
 }
 
 .footer__item {
+  justify-content: flex-start;
 }
 
 .footer__title {
@@ -596,11 +597,27 @@ p {
   text-transform: uppercase;
 }
 
+.footer__list {
+  justify-content: flex-start;
+}
+
 .footer__social {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  border: none;
+  background-position: center;
   background-color: red;
   color: var(--tittle-text-color);
   transition: 0.2s;
+}
+
+.footer__link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+}
+
+.footer__icon {
+  fill: currentColor;
 }
