@@ -419,17 +419,22 @@ p {
 }
 
 .specialist__icon {
+  margin-bottom: 30px;
+}
+
+.specialist__social {
+  fill: var(--icon-color);
   display: flex;
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  margin-bottom: 30px;
+  border: none;
   align-items: center;
   justify-content: center;
   transition: 0.2s;
 }
 
-.specialist__icon:hover,
+.specialist__social:hover,
 .specialist__icon:focus {
   background-color: var(--accent-color);
   fill: var(--tittle-text-color);
@@ -439,30 +444,30 @@ p {
 
 .clients__list {
   background-color: var(--primary-background-color);
-  display: inline-flex;
+  display: flex;
   margin: 0 auto;
+  border: none;
+}
+
+.clients__item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .clients__card {
-  display: inline-flex;
-  color: var(--icon-color);
-  width: 172px;
-  height: 94px;
+  display: flex;
+}
+
+.clients__icon {
+  width: 170px;
+  height: 92px;
+  fill: var(--icon-color);
   border: 1px solid #afb1b8;
   border-radius: 4px;
   transition: 0.2s;
 }
 
-.clients__card:not(:last-child) {
-  margin-right: 30px;
-}
-
-.clients__icon {
-  fill: currentColor;
-}
-
-.clients__card:hover {
-  color: var(--accent-color);
+.clients__icon:hover {
+  fill: var(--accent-color);
   border-color: var(--accent-color);
 }
 
