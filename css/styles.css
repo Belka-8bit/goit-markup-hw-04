@@ -586,6 +586,7 @@ p {
 }
 
 .footer__item {
+  display: flex;
   justify-content: flex-start;
 }
 
@@ -598,17 +599,19 @@ p {
 }
 
 .footer__list {
+  display: flex;
   justify-content: flex-start;
 }
 
 .footer__social {
+  background-color: red;
+  color: var(--tittle-text-color);
   width: 44px;
   height: 44px;
   border-radius: 50%;
   border: none;
+  cursor: pointer;
   background-position: center;
-  background-color: red;
-  color: var(--tittle-text-color);
   transition: 0.2s;
 }
 
@@ -616,6 +619,8 @@ p {
   display: flex;
   width: 44px;
   height: 44px;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer__icon {
