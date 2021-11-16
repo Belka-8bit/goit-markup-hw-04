@@ -450,7 +450,9 @@ p {
   fill: currentColor;
 }
 
-.clients__icon:hover {
+.clients__card:hover {
+  color: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 /* Filter */
