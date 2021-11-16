@@ -411,6 +411,7 @@ p {
 
 .specialist__item {
   display: flex;
+  justify-content: center;
 }
 
 .specialist__icon:not(:last-child) {
@@ -418,12 +419,14 @@ p {
 }
 
 .specialist__icon {
+  display: flex;
   width: 44px;
   height: 44px;
   border-radius: 50%;
   fill: var(--icon-color);
-  justify-content: center;
+  margin-bottom: 30px;
   align-items: center;
+  justify-content: center;
   transition: 0.2s;
 }
 
