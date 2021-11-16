@@ -435,7 +435,7 @@ p {
 }
 
 .specialist__social:hover,
-.specialist__icon:focus {
+.specialist__social:focus {
   background-color: var(--accent-color);
   fill: var(--tittle-text-color);
 }
@@ -455,18 +455,16 @@ p {
 
 .clients__card {
   display: flex;
-}
-
-.clients__icon {
-  width: 170px;
-  height: 92px;
+  width: 172px;
+  height: 94px;
   fill: var(--icon-color);
   border: 1px solid #afb1b8;
   border-radius: 4px;
   transition: 0.2s;
 }
 
-.clients__icon:hover {
+.clients__card:hover,
+.clients__card:focus {
   fill: var(--accent-color);
   border-color: var(--accent-color);
 }
