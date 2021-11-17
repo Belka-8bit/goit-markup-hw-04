@@ -495,22 +495,15 @@ p {
 }
 
 .filter__inner {
+  padding: 20px 24px;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
 }
 
-.filter__inner h2 {
-  padding: 20px 24px 4px;
-}
-
-.filter__inner p {
-  padding: 0 24px;
-  margin-bottom: 20px;
-}
-
 .filter__title {
   color: var(--primary-text-color);
+  margin-bottom: 4px;
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
