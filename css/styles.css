@@ -474,17 +474,13 @@ p {
   transition: color 0.25s linear;
 }
 
-.link {
+.filter__link {
+  display: block;
   text-decoration: none;
 }
 
-.link:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-
-.filter__card:hover,
-.filter__card:focus {
+.filter__link:focus,
+.filter__link:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
