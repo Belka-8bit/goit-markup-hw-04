@@ -79,7 +79,6 @@ p {
 
 .header__logo {
   color: var(--accent-color);
-  padding: 24px 0;
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   font-weight: 700;
